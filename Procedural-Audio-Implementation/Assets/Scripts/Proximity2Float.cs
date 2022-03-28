@@ -63,7 +63,7 @@ public class Proximity2Float : MonoBehaviour
 		if(proximity < 0.0f)
 			proximity = 0.0f;
 
-		proximity /= 10.0f;
+		// proximity /= 10.0f;
 		//Send our frequency value to the PD patch.
 		//Like in Button2Bang.cs/ButtonExample.pd, all we need to be able to
 		//send floats to our PD patch is a named receive object in the patch (in
